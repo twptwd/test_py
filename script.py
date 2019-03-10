@@ -3,7 +3,6 @@ from flask import request, jsonify
 import json
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = True
 
 # Create some test data for our catalog in the form of a list of dictionaries.
 books = [
